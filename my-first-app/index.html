@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DayFlow — 인사</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <main>
+      <h1>DayFlow</h1>
+      <p class="greeting">안녕하세요. 오늘 하루를 설계해 볼까요?</p>
+      <button type="button" id="quote-button">오늘의 한마디</button>
+      <p id="quote" aria-live="polite"></p>
+    </main>
+
+    <section class="calendar" aria-labelledby="calendar-title">
+      <h2 id="calendar-title"></h2>
+      <div id="calendar-grid" class="calendar-grid"></div>
+      <h3>이달의 할일</h3>
+      <ul id="schedule-list"></ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
